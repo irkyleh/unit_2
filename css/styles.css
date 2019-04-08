@@ -1,0 +1,175 @@
+body {
+  background-color: #f5f4f4;
+line-height: 1.5;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+}
+.page-wrapper{
+  text-align: center;
+}
+.header-wrapper {
+  text-align: center;
+  background-color: #ecebeb;
+  margin: none;
+
+}
+.name {
+  margin: 0%;
+
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h3 {font-family: 'Fjalla One', sans-serif;}
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-top a {
+  background-color: #FFF;
+  margin: 5px 10px;
+  margin-bottom: 2%;
+  padding: 10px;
+  display: block;
+
+}
+.logolist li {
+  display: inline-block;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.main-nav {
+  margin-bottom: 20px;
+}
+.profile-img {
+
+width: 70%;
+padding-top: 10%;
+}
+.main-nav {
+  margin: auto;
+  padding: inherit;
+}
+.profile {
+  padding-bottom: 10px;
+}
+ul, a {
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+  color: #000;
+}
+img {
+  width: 90%;
+  margin-top: 5px;
+}
+.bname {
+  float: left;
+
+}
+.return{
+  float:right;
+  text-decoration: none;
+
+}
+.footer-wrapper {
+  text-align: center;
+  background-color: #ecebeb;
+  margin: none;
+}
+main {
+  margin-top: 5px;
+}
+.footer-nav {
+display: none;
+
+}
+nav a:hover {
+  background-color:#f0f0f0;
+  transition: all .3s;
+}
+@media (min-width:768px){
+
+  .main-nav li {
+    display: inline-block;
+    background-color: none;
+  }
+
+  .main-nav a {
+    background-color: transparent;
+    padding: 5px;
+  }
+  .profile {
+  padding-bottom: 10px;
+}
+  .profile-img {
+float: right;
+    width: 45%;
+padding-top: 0;
+padding-right: 5px;
+overflow: auto;
+
+  }
+  #profile-text {
+padding: 10%;
+    width: 40%
+    text-align: left;}
+.col {width: 50%;
+  display: inline-block;
+float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.clearfix {
+  overflow: auto;
+}
+
+.footer-nav li {
+  display: inline-block;
+}
+.nav-bottom ul {
+  float: right;
+  display: inline-block;
+}
+.return {display: none}
+}
+@media (min-width: 1024px){
+.return
+{
+  display: none
+}
+
+.col {width: 33.3%;
+  display: inline-block;
+float: left;
+}
+.profile-img{
+  padding-bottom: 20px;}
+p{
+  font-size: 1.5em;
+}
+nav{
+
+  float: right;
+  align: center;
+}
+
+ h1 {
+  float: left;
+
+}
+header p {
+  font-size: 1.3em;
+
+}
+
+#profile-text {
+  align: left;}
+}
